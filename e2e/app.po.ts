@@ -1,11 +1,11 @@
 import { browser, element, by } from 'protractor/globals';
 
 export class AgenaIoPage {
-  navigateTo() {
+  static navigateTo() {
     return browser.get('/');
   }
 
-  getParagraphText() {
+  static getParagraphText() {
     return element(by.css('app-root h1')).getText();
   }
 }

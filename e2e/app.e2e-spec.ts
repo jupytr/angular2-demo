@@ -8,7 +8,7 @@ describe('agena-io App', function() {
   });
 
   it('should display message saying app works', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    AgenaIoPage.navigateTo();
+    expect(AgenaIoPage.getParagraphText()).toEqual('app works!');
   });
 });
